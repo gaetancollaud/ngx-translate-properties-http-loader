@@ -1,0 +1,36 @@
+{
+  "name": "ngx-translate-properties-http-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf ./dist",
+    "lint": "tslint --force '*.ts'"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaetancollaud/ngx-translate-properties-http-loader.git"
+  },
+  "author": "Gaetan Collaud",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaetancollaud/ngx-translate-properties-http-loader/issues"
+  },
+  "homepage": "https://github.com/gaetancollaud/ngx-translate-properties-http-loader#readme",
+  "devDependencies": {
+    "@angular/common": "^5.0.2",
+    "@angular/core": "^5.0.2",
+    "@angular/platform-browser": "^5.0.2",
+    "@ngx-translate/core": "^8.0.0",
+    "rxjs": "^5.5.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  },
+  "dependencies": {
+    "node-properties-parser": "0.0.2"
+  }
+}

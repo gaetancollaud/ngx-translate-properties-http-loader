@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"noUnusedLocals": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"outDir": "dist/",
+		"declaration": true,
+		"target": "es5",
+		"lib": [
+			"dom",
+			"es2015"
+		]
+	},
+	"include": [
+		"src/**/*.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
